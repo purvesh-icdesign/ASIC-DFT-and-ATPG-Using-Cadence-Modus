@@ -9,6 +9,21 @@ This project implements an **8-bit synchronous up/down counter** using Verilog H
 
 The design supports asynchronous active-low reset and selectable up/down counting. The workflow includes RTL simulation, logic synthesis, scan-chain insertion, DFT verification, fault-model construction, and Automatic Test Pattern Generation (ATPG).
 
+## Synthesis Results
+
+The RTL design was synthesized using Cadence Genus. The synthesis results and reports after Scan insertion are shown below.
+
+<img width="685" alt="Cadence Genus Synthesis Results" src="https://github.com/user-attachments/assets/32a44bb0-5ab3-48ad-b5c6-16ce243e9eff" />
+)
+
+### Synthesis Reports
+
+- **RTL Elaboration:** Design elaboration and hierarchy checking.
+- **Logic Synthesis:** Generic synthesis and technology mapping.
+- **Optimization:** Logic optimization using Cadence Genus.
+- **DFT Scan Insertion:** Scan-chain insertion and connectivity verification.
+- **Gate-Level Netlist:** Generated scan-enabled Verilog netlist.
+
 ## Design Specifications
 
 | Parameter | Description |
