@@ -1,0 +1,2 @@
+s1(11Oct2026:00:12:52):  irun counter.v counter_test.v -access +rwc -gui -coverage all 
+s2(11Oct2026:00:14:36):  irun -c -q -nostdout -access +rwc -ncelabargs -partialdesign -log ./.hal-irun.log /home/embedded/Videos/Counter_DFT/1. Sources/counter_test.v 

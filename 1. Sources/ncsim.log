@@ -1,0 +1,80 @@
+ncsim(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm counter_test.count counter_test.clk counter_test.m counter_test.rst
+Created probe 1
+ncsim> run
+Time=                   0 rst=0 clk=0 m=x count=  0
+Time=                   5 rst=1 clk=1 m=x count=255
+Time=                  10 rst=1 clk=0 m=x count=255
+Time=                  15 rst=1 clk=1 m=x count=254
+Time=                  20 rst=1 clk=0 m=x count=254
+Time=                  25 rst=1 clk=1 m=x count=253
+Time=                  30 rst=1 clk=0 m=x count=253
+Time=                  35 rst=1 clk=1 m=x count=252
+Time=                  40 rst=1 clk=0 m=x count=252
+Time=                  45 rst=1 clk=1 m=x count=251
+Time=                  50 rst=1 clk=0 m=x count=251
+Time=                  55 rst=1 clk=1 m=x count=250
+Time=                  60 rst=1 clk=0 m=x count=250
+Time=                  65 rst=1 clk=1 m=x count=249
+Time=                  70 rst=1 clk=0 m=x count=249
+Time=                  75 rst=1 clk=1 m=x count=248
+Time=                  80 rst=1 clk=0 m=x count=248
+Time=                  85 rst=1 clk=1 m=x count=247
+Time=                  90 rst=1 clk=0 m=x count=247
+Time=                  95 rst=1 clk=1 m=x count=246
+Time=                 100 rst=1 clk=0 m=x count=246
+Time=                 105 rst=1 clk=1 m=x count=245
+Time=                 110 rst=1 clk=0 m=x count=245
+Time=                 115 rst=1 clk=1 m=x count=244
+Time=                 120 rst=1 clk=0 m=x count=244
+Time=                 125 rst=1 clk=1 m=x count=243
+Time=                 130 rst=1 clk=0 m=x count=243
+Time=                 135 rst=1 clk=1 m=x count=242
+Time=                 140 rst=1 clk=0 m=x count=242
+Time=                 145 rst=1 clk=1 m=x count=241
+Time=                 150 rst=1 clk=0 m=x count=241
+Time=                 155 rst=1 clk=1 m=x count=240
+Time=                 160 rst=1 clk=0 m=0 count=240
+Time=                 165 rst=1 clk=1 m=0 count=239
+Time=                 170 rst=1 clk=0 m=0 count=239
+Time=                 175 rst=1 clk=1 m=0 count=238
+Time=                 180 rst=1 clk=0 m=0 count=238
+Time=                 185 rst=1 clk=1 m=0 count=237
+Time=                 190 rst=1 clk=0 m=0 count=237
+Time=                 195 rst=1 clk=1 m=0 count=236
+Time=                 200 rst=1 clk=0 m=0 count=236
+Time=                 205 rst=1 clk=1 m=0 count=235
+Time=                 210 rst=1 clk=0 m=0 count=235
+Time=                 215 rst=1 clk=1 m=0 count=234
+Time=                 220 rst=1 clk=0 m=0 count=234
+Time=                 225 rst=1 clk=1 m=0 count=233
+Time=                 230 rst=1 clk=0 m=0 count=233
+Time=                 235 rst=1 clk=1 m=0 count=232
+Time=                 240 rst=1 clk=0 m=0 count=232
+Time=                 245 rst=1 clk=1 m=0 count=231
+Time=                 250 rst=1 clk=0 m=0 count=231
+Time=                 255 rst=1 clk=1 m=0 count=230
+Time=                 260 rst=1 clk=0 m=0 count=230
+Time=                 265 rst=1 clk=1 m=0 count=229
+Time=                 270 rst=1 clk=0 m=0 count=229
+Time=                 275 rst=1 clk=1 m=0 count=228
+Time=                 280 rst=1 clk=0 m=0 count=228
+Time=                 285 rst=1 clk=1 m=0 count=227
+Time=                 290 rst=1 clk=0 m=0 count=227
+Time=                 295 rst=1 clk=1 m=0 count=226
+Time=                 300 rst=1 clk=0 m=0 count=226
+Time=                 305 rst=1 clk=1 m=0 count=225
+Time=                 310 rst=1 clk=0 m=0 count=225
+Time=                 315 rst=1 clk=1 m=0 count=224
+Simulation complete via $finish(1) at time 320 NS + 0
+./counter_test.v:41 #320 $finish;
+ncsim> ^C
+ncsim> exit
+ncsim: Memory Usage - 38.6M program + 294.0M data = 332.7M total (336.2M Peak)
+ncsim: CPU Usage - 0.6s system + 0.4s user = 1.0s total (85.1s, 1.2% cpu)

@@ -1,0 +1,23 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Oct 11, 2026 at 00:12:52 IST
+irun
+	counter.v
+	counter_test.v
+	-access +rwc
+	-gui
+	-coverage all
+file: counter.v
+	module worklib.counter:v
+		errors: 0, warnings: 0
+file: counter_test.v
+module counter test;
+             |
+ncvlog: *W,RECOME (counter_test.v,3|13): recompiling design unit worklib.counter:v.
+	First compiled from line 2 of counter.v.
+module counter test;
+                  |
+ncvlog: *E,EXPSMC (counter_test.v,3|18): expecting a semicolon (';') [12.1(IEEE)].
+	module worklib.counter:v
+		errors: 1, warnings: 1
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s086: Exiting on Oct 11, 2026 at 00:12:52 IST  (total: 00:00:00)

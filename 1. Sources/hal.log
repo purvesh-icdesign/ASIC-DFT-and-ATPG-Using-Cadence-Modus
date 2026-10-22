@@ -1,0 +1,27 @@
+hal(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+hal: Options:   -cdslib /home/embedded/Videos/Counter_DFT/1. Sources/cds.lib -logfile hal.log /home/embedded/Videos/Counter_DFT/1. Sources/counter_test.v.
+hal: Workspace: /home/embedded/Videos/Counter_DFT/1. Sources.
+hal: Date: Sun Oct 11 00:14:26 IST 2026.
+
+hal: Running on design source files.....
+
+  ==========================================================================
+Compiling design 
+
+
+irun: *E,FMUK: The type of the file (/home/embedded/Videos/Counter_DFT/1.) could not be determined.
+irun: *E,FILEMIS: Cannot find the provided file /home/embedded/Videos/Counter_DFT/1..
+irun: *E,FILEMIS: Cannot find the provided file Sources/counter_test.v.
+
+Analysis summary :
+
+ Errors   : (3)
+  FILEMIS (2)      FMUK (1)     
+
+Analysis failed.
+
+ ==========================================================================
+
+To analyze results, run following command :
+    ncbrowse -64bit -cdslib /home/embedded/Videos/Counter_DFT/1. Sources/cds.lib -sortby severity -sortby category -sortby tag hal.log
+

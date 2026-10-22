@@ -1,0 +1,1 @@
+s1(11Oct2026:00:12:52):  irun counter.v counter_test.v -access +rwc -gui -coverage all 

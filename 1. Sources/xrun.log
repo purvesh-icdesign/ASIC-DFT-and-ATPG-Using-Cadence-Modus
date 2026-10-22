@@ -1,0 +1,23 @@
+xrun(64): 22.09-s003: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	22.09-s003: Started on Oct 11, 2026 at 00:13:34 IST
+xrun
+	counter.v
+	counter_test.v
+	-access +rwc
+	-gui
+	-coverage all
+file: counter.v
+	module worklib.counter:v
+		errors: 0, warnings: 0
+file: counter_test.v
+module counter test;
+             |
+xmvlog: *W,RECOME (counter_test.v,3|13): recompiling design unit worklib.counter:v.
+	First compiled from line 2 of counter.v.
+module counter test;
+                  |
+xmvlog: *E,EXPSMC (counter_test.v,3|18): expecting a semicolon (';') [12.1(IEEE)].
+	module worklib.counter:v
+		errors: 1, warnings: 1
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	xrun(64)	22.09-s003: Exiting on Oct 11, 2026 at 00:13:34 IST  (total: 00:00:00)
